@@ -27,4 +27,8 @@ public class HomePage extends BaseTest{
 		return new NewPreQuotePage();
 	}
 	
+	public static void addNewMethod() {
+		System.out.println("changes in existing class");
+	}
+	
 }
